@@ -16,7 +16,6 @@ color: 'white',
 fontSize: 35,
 marginTop:10,
 marginLeft: 15,
-
     },
     input: {
 marginTop:40,
@@ -51,7 +50,10 @@ flexDirection:'row',
       flex:1,
 
 
-    }
+    },
+    wrapperCustom: {
+      borderRadius: 50,
+      }
 });
 
 export default function App() {
