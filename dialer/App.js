@@ -4,56 +4,52 @@ import RNImmediatePhoneCall from 'react-native-immediate-phone-call';
 
 const styles = StyleSheet.create({
   body: {
-   flex:1,
+    flex:1,
     backgroundColor:'white',
   },
-    name: {
-        backgroundColor: 'green',
-        height:100,
-    },
-    nametext: {
-color: 'white',
-fontSize: 35,
-marginTop:10,
-marginLeft: 15,
-    },
-    input: {
-marginTop:40,
-marginBottom:40,
-fontSize:40,
-textAlign: 'center',
-color: 'black',
-    },
-    container:{
-
-flexDirection:'row',
-
-    },
-    containeris:{
-     flex:1,
-      height:90,
-      borderTopWidth:0.5,
-    },
-    numtext:{
-      marginTop:3,
-      textAlign:'center',
-      fontSize:40,
-      color:'black',
-    },
-    lettertext:{
-      marginTop:-3,
-      textAlign:'center',
-      color:'lightgray',
-      fontSize:15,
-    },
-    containerisko:{
-      flex:1,
-
-
-    },
-    wrapperCustom: {
-      borderRadius: 50,
-      }
+  name: {
+    backgroundColor: 'green',
+    height:100,
+  },
+  nametext: {
+    color: 'white',
+    fontSize: 35,
+    marginTop:10,
+    marginLeft: 15,
+  },
+  input: {
+    marginTop:40,
+    marginBottom:40,
+    fontSize:40,
+    textAlign: 'center',
+    color: 'black',
+  },
+  container:{
+    flexDirection:'row',
+  },
+  containeris:{
+    flex:1,
+    height:90,
+    borderTopWidth:0.5,
+  },
+  numtext:{
+    marginTop:3,
+    textAlign:'center',
+    fontSize:40,
+    color:'black',
+  },
+  lettertext:{
+    marginTop:-3,
+    textAlign:'center',
+    color:'lightgray',
+    fontSize:15,
+  },
+  containerisko:{
+    flex:1,
+  },
+  wrapperCustom: {
+    borderRadius: 50,
+  }
 });
 
 export default function App() {
