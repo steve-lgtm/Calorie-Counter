@@ -32,24 +32,8 @@ const styles = StyleSheet.create({
     },
 });
 
-export default class App extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            compassHeading: 0,
-        };
-    }
-
-    componentDidMount(){
-        const degree_update_rate = 0.00001;
-        CompassHeading.start(degree_update_rate, (heading, accuracy) => {
-            this.setState({
-                compassHeading: parseInt(heading.heading),
-            })
-        })
-    }
-
-    render() {
+export default class App{
+    
         return (
             <SafeAreaView style={[{backgroundColor: 'black'}]}>
                 <View style={styles.head}>
