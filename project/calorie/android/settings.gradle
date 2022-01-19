@@ -1,3 +1,16 @@
 rootProject.name = 'calorie'
+include ':react-native-scan-barcode'
+project(':react-native-scan-barcode').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-scan-barcode/android')
+include ':react-native-barcode-scanner-google'
+project(':react-native-barcode-scanner-google').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-barcode-scanner-google/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-scan-barcode'
+project(':react-native-scan-barcode').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-scan-barcode/android')
+include ':react-native-scan-barcode'
+project(':react-native-scan-barcode').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-scan-barcode/android')
+include ':react-native-scan-barcode'
+project(':react-native-scan-barcode').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-scan-barcode/android')
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
+
